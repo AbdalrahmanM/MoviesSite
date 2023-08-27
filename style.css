@@ -1,0 +1,158 @@
+body{
+    background-color: #BCCEF8;
+}
+
+#movie-title{
+    font-size: x-large;
+    width: 400px;
+}
+
+#movie-backdrop {
+    width: 100%;
+    height: 25%;
+}
+
+.actorsPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 100px;
+    grid-auto-rows: 200px;
+    width: 900px;
+    margin-bottom: 60px;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.container {
+    padding-top: 32px;
+}
+
+#actors {
+    margin: 24px 16px 0 0;
+}
+
+.movie-div :hover{
+    transform: scale(1.1);
+}
+
+.eachActor{
+    width: 150px;
+}
+
+.someImages{
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.eachSimilarMovie{
+    border-radius: 20%;
+    cursor:pointer;
+}
+
+.eachSimMovie{
+    width: 200px;
+    height: 100px;
+}
+
+.overview{
+    width: 800px;
+}
+
+.actorPageBiography{
+    width: 700px;
+}
+.trailerVideo iframe{
+    width:30rem;
+    height: 20rem;
+}
+
+.actorRelatedMovies{
+    width: 600px;
+}
+
+.actorRelatedMovies:hover{
+    cursor: pointer;
+}
+
+#knownFor{
+ width: 800px;   
+}
+
+.actorProfilePic{
+    border-end-start-radius: 80px 80px;
+}
+
+.productionImgAnmi{
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.productionImgAnmi:hover{
+    transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    box-shadow: 0 0 50px rgb(16, 24, 68);
+    transition-delay: 0.2s;
+    background-color: #BCCEF8;
+    cursor: pointer;
+}
+
+.genre{
+    display: block;
+    text-align: center;
+    margin: 2px;
+}
+
+.aboutPageContainer{
+    margin: 20px;
+}
+
+.gif{
+    height: 500px;
+}
+
+.aboutPage{
+    width: 1000px;
+    margin-left: 120px;
+}
+.animated-title {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animated-pic {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animated-pic:hover {
+    transform: scale(1.15);
+  }
+  .search-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .search-input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .search-input:focus {
+    width: 300px;
+  }
+  .search-container:hover{
+    background-color: #555;
+  }

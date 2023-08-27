@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+  <title>Movie</title>
+</head>
+
+<body>
+  <nav class="bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <a href="./index.html"
+            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+          <div class="relative inline-block text-left">
+            <button id="dropdownBtn" data-dropdown-toggle="dropdown"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              type="button">Genre</button>
+            <div id="dropdown" class="bg-gray-700 text-gray-300 cursor-pointer hidden divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+            </div>
+          </div>
+          <a href="#" id="actorsBtn"
+            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Actor
+            List</a>
+          <a href="#" id="aboutBtn"
+            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+          <div class="relative inline-block text-left">
+            <button id="dropdownBtn" data-dropdown-toggle="filter-dropdown-content"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              type="button">Filter</button>
+            <div id="filter-dropdown-content"
+              class="bg-gray-700 text-gray-300 cursor-pointer hidden divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+              <a href="">Up Coming</a>
+              <a href="">Popular</a>
+              <a href="">Now Playing</a>
+              <a href="">Top Rated</a>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center search-container">
+          <input id="search-input" type="search" placeholder="Search here!"
+            class="text-gray-300 bg-gray-700 px-3 py-2 rounded-md text-sm font-medium search-input">
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <div>
+    <h1 class="text-center mt-5 text-7xl mb-5 animated-title">Movie Website</h1>
+  </div>
+  <div class="container grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 mb-3"></div>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+  <footer class="footer bg-gray-800 py-4 text-center">
+    <a href="https://www.example.com" class="text-gray-200 font-bold mr-4">Hunç</a>
+    <a href="https://www.example.com" class="text-gray-200 font-bold mr-4">Abdulrahman</a>
+    <a href="https://www.example.com" class="text-gray-200 font-bold">Ebla</a>
+  </footer>
+</body>
+
+</html>
